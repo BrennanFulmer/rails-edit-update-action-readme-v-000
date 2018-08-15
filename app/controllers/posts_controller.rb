@@ -24,6 +24,9 @@ class PostsController < ApplicationController
   end
    
   def update
+    def update
+  raise params.inspect
+end
   end
   
 end
